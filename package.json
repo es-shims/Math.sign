@@ -1,0 +1,22 @@
+{
+  "name": "mathsign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/math-sign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoryNunn/math-sign/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/math-sign#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
