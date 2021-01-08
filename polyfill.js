@@ -3,9 +3,5 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	if (true) {
-		return implementation;
-	}
-
-	return Math.sign;
+	return Math.sign || implementation;
 };
