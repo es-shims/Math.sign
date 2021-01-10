@@ -1,6 +1,6 @@
 {
   "name": "math.sign",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An ES-spec-compliant Math.sign shim/polyfill/replacement that works as far down as ES3",
   "main": "index.js",
   "exports": {
