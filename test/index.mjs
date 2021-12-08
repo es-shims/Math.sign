@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = signModule;
-	t.equal(await import('math.sign/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('math.sign/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('math.sign/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('math.sign/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('math.sign/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('math.sign/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
