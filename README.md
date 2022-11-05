@@ -22,10 +22,10 @@ npm install --save math.sign
 ## Usage/Examples
 
 ```js
-console.log(Math.sign(3)); //  1
+console.log(Math.sign(3)); // 1
 console.log(Math.sign(-3)); // -1
 console.log(Math.sign("-3")); // -1
-console.log(Math.sign(0)); //  0
+console.log(Math.sign(0)); // 0
 ```
 
 ## Tests
